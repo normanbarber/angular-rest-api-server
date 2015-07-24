@@ -11,7 +11,7 @@ app.js is the main entry-point for the app and calls main.js passing in 2 args f
 
 For this demo, there is no view. That will come next. For now, to test your rest api you will need to install Advanced REST Client from the Chrome Web Store.
 ### Posting from Advance REST Client (ARC)
-```javascript
+```{engine='bash', count_lines}
 > url: http://localhost:4001/id/someid
 > Select POST radio button
 > Select application/json from the content-type drop-down menu
@@ -20,7 +20,7 @@ For this demo, there is no view. That will come next. For now, to test your rest
 ```
 
 After posting from ARC, your logs should look something like this in your console. Values may be different depending on your payload and the route id you are posting to.
-```javascript
+```{engine='bash', count_lines}
 Passing data to event bus
 Publish event messageReceived: {"source":"REST","method":"POST","url":"/id/someid","data":{"id":"someid","body":{"somekey":"somevalue"},"query":{}}}
 ```
