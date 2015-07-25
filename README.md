@@ -1,7 +1,11 @@
 Angular REST api (server side)
 ======================
 
-Demo for rest api to work with an angular frontend. Configuring web server routes, in config/routes/routes_web.js, to load dynamically in the browser. Rest routes are also configured dynamically and found in config/routes/routes_rest.js
+Demo for rest api to work with an angular frontend.
+
+web server routes are located in config/routes/routes_web.js
+
+rest server routes are found in config/routes/routes_rest.js
 
 app.js is the main entry-point for the app and calls main.js
 
